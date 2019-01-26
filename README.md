@@ -1,5 +1,5 @@
 # python-ip-script
-This is for assignment. Jenkins job to execute the python script in this repo
+This is for assignment 2. Jenkins job to execute the python script in this repo
 The Jenkins Job DSL is defined in the job groovy.
 As one of the requirement, the job should be triggered from this repo as well. Therefore, there is additional setting in both Jenkins and Github side.
 
