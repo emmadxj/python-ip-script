@@ -14,6 +14,8 @@ Installed GitHub Integration Plugin is installed
 Github access is allowed by setup in Manage Jenkins --> Manage tools configuration.
 http://172.20.10.4:8080/ is the ip of my local jenkins instance.
 
++++
+
 
 Github:
 -------
