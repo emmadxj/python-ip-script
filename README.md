@@ -11,7 +11,9 @@ As one of the requirement, the job should be triggered from this repo as well. T
 Jenkins:
 ----------
 GitHub Integration Plugin need to be installed in Jenkins.
+
 Github access is allowed by setup in Manage Jenkins --> Manage Tools configuration.
+
 http://172.20.10.4:8080/ is the ip of my local jenkins instance.
 
 
