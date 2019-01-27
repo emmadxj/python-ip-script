@@ -1,19 +1,28 @@
-# python-ip-script
-This is for assignment 2. Jenkins job to execute the python script in this repo
+python-ip-script
+=================
+
+# Background
+This is for assignment 2. Jenkins job to execute the python script in this repo.
 The Jenkins Job DSL is defined in the job groovy.
+
+# Requriements
 As one of the requirement, the job should be triggered from this repo as well. Therefore, there is additional setting in both Jenkins and Github side.
 
 Jenkins:
+----------
 Installed GitHub Integration Plugin is installed
 Github access is allowed by setup in Manage Jenkins --> Manage tools configuration.
 http://172.20.10.4:8080/ is the ip of my local jenkins instance.
 
 
 Github:
+-------
 Setup the GitHub Webhook, with which the jenkins job will be triggered on a Push event.
 
-Refer to below console output. When a test file is commited, a jenkins job is auto triggered.
 
+# Test Run
+Refer to below console output. When a test file is commited, a jenkins job is auto triggered.
+~~~
 Console Output
 Started by user Emma Dai
 [EnvInject] - Loading node environment variables.
@@ -38,3 +47,4 @@ Existing items:
     GeneratedJob{name='assignment2'}
 Finished: SUCCESS
 © 2019 GitHub, Inc.
+~~~
