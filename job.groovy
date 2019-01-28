@@ -1,3 +1,5 @@
+#!groovy
+
 job ('assignment2') {
     triggers{
     	configure {
