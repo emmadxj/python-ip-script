@@ -50,3 +50,9 @@ Existing items:
 Finished: SUCCESS
 © 2019 GitHub, Inc.
 ~~~
+
+# Alternatively,
+This task can also be done via jenkins pipline. Instead Jenkins Job/Step, we could diffine several stage in the pipline groovy, which could be
+-- git clone repo
+-- execute python script
+While, pipline is more used in complicated tasks which involve multiple stagse and each of the status/output of each stage may have impact on the consequence stage. Pipeline could give better exception handing, log trackin and notification.
